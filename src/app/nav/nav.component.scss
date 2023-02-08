@@ -4,22 +4,12 @@
   align-items: center;
 }
 
-ol {
-  list-style: none;
-  counter-reset: item;
-}
-
-ol li {
-  counter-increment: item;
+ul li {
   margin: 0 20px;
   position: relative;
   float: left;
   font-weight: bold;
-}
-
-ol li::before {
-  content: counter(item) ". ";
-  color: red;
+  list-style: none;
 }
 
 a,

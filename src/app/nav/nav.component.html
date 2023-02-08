@@ -1,8 +1,8 @@
 <div class="styledLinks">
-  <ol>
+  <ul>
     <li *ngFor="let i of navLinks">
-      <a href={{i.url}}>{{i.name}}</a>
+      <a mat-button href={{i.url}}>{{i.index}}. {{i.name}}</a>
     </li>
-  </ol>
+  </ul>
   <div>ResumeLink</div>
 </div>

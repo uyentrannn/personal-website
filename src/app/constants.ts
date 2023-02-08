@@ -13,18 +13,22 @@ export const socialMedia = [
 
 export const navLinks = [
   {
+    index: 1,
     name: 'About',
     url: '/#about',
   },
   {
+    index: 2,
     name: 'Experience',
     url: '/#jobs',
   },
   {
+    index: 3,
     name: 'Work',
     url: '/#projects',
   },
   {
+    index: 4,
     name: 'Contact',
     url: '/#contact',
   },
