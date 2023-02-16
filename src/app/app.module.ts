@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -15,6 +16,7 @@ import { IntroComponent } from './intro/intro.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { SocialsComponent } from './socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { NavComponent } from './nav/nav.component';
     IntroComponent,
     MenuComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,8 +37,10 @@ import { NavComponent } from './nav/nav.component';
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
