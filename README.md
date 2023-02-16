@@ -1,10 +1,10 @@
 # PersonalWebsite
 
 👋 Hi, I’m @uyentrannn
-👀 I’m interested in ...
-🌱 I’m currently learning ...
-💞️ I’m looking to collaborate on ...
-📫 How to reach me ...
+👀 I’m interested in ... Building legos, gym and fitness, reading, netflix
+🌱 I’m currently learning ... Angular and Salesforce
+💞️ I’m looking to collaborate on ... Projects that help women build confidence
+📫 How to reach me ... Preferrably email
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
